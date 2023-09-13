@@ -16,8 +16,13 @@ public class Program1 {
         //departmentDao.insert(department);
 
 
-        System.out.println("==== Teste 2 update ====");
-        department = new Department(7,"FullStack");
-        departmentDao.update(department);
+       //System.out.println("==== Teste 2 update ====");
+        // department = new Department(7,"FullStack");
+       //departmentDao.update(department);
+
+
+        System.out.println("==== Teste 2 delete ====");
+        departmentDao.deleteById(8);
+
     }
 }
